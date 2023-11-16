@@ -188,11 +188,11 @@ public class Doador {
 		this.rua = rua;
 		this.cep = cep;
 	}
-	@ManyToMany
-	@JoinTable(name = "empresa",
-	joinColumns = @JoinColumn(name = "empresa_id"),
-	inverseJoinColumns = @JoinColumn(name = "empresa_id"))
-	private Set<Doador> doador = new HashSet<>();
+	//@ManyToMany
+	//@JoinTable(name = "empresa",
+	//joinColumns = @JoinColumn(name = "empresa_id"),
+	//inverseJoinColumns = @JoinColumn(name = "empresa_id"))
+	//private Set<Doador> doador = new HashSet<>();
 
 	public Doador() {
 		super();

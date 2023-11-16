@@ -3,7 +3,6 @@ import java.util.List;
 import java.util.Set;
 
 import com.planetar.model.Catadador;
-import com.planetar.model.Doador;
 import com.planetar.model.Empresa;
 public interface EmpresaServices {
 	List<Empresa> getAllDoador();

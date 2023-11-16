@@ -148,11 +148,11 @@ public class Catadador {
 		this.bairro = bairro;
 		this.cep = cep;
 	}
-	@ManyToMany
-	@JoinTable(name = "doador",
-	joinColumns = @JoinColumn(name = "doador_id"),
-	inverseJoinColumns = @JoinColumn(name = "doador_id"))
-	private Set<Catadador> doador = new HashSet<>();
+	//@ManyToMany
+	//@JoinTable(name = "doador",
+	//joinColumns = @JoinColumn(name = "doador_id"),
+	//inverseJoinColumns = @JoinColumn(name = "doador_id"))
+	//private Set<Catadador> doador = new HashSet<>();
 	public Catadador() {
 		super();
 		
